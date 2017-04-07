@@ -28,7 +28,6 @@ Simple example*:
 
     const Container  = require('@cyrhla/container/Container')
     const ServiceBag = require('@cyrhla/container/Bag/ServiceBag')
-    const CallBag    = require('@cyrhla/container/Bag/CallBag')
 
     var container = new Container()
 
