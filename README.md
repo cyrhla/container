@@ -67,18 +67,7 @@ Simple example, raw*:
     var container = new Container()
 
     var serviceFoo = {
-        class: '@some/module/Foo',
-        alias: 'some',
-        calls: [
-            ['someMethod1', []],
-            ['someMethod2', [123]]
-        ],
-        addListener: {
-            emit_name: [
-                ['logMethod', ['abc']]
-            ]
-        },
-        public: true
+        class: '@some/module/Foo'
     }
 
     container.set('services.foo', serviceFoo)
