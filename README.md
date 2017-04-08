@@ -62,7 +62,7 @@ The more complicated example*:
 
 Simple example, raw*:
 
-    const Container  = require('@cyrhla/container/Container')
+    const Container = require('@cyrhla/container/Container')
 
     var container = new Container()
 
@@ -78,7 +78,7 @@ Simple example, raw*:
 
 The more complicated example, raw with the replacement keys and listeners*:
 
-    const Container  = require('@cyrhla/container/Container')
+    const Container    = require('@cyrhla/container/Container')
     const EventEmitter = require('events')
 
     var container = new Container()
